@@ -147,8 +147,8 @@ function Show-VolumeOSD {
 }
 
 # Descarcam arsenalul in TEMP
-$u1='https://raw.githubusercontent.com/mihaileon0505/esp32s3/main/poza.jpg'
-$u2='https://raw.githubusercontent.com/mihaileon0505/esp32s3/main/muzica.mp3'
+$u1='https://raw.githubusercontent.com/smecherucarbarou/esp32s3/main/kingu/poza.jpeg'
+$u2='https://raw.githubusercontent.com/smecherucarbarou/esp32s3/main/kingu/king.mp3'
 $p1="$env:TEMP\p.jpg"; $p2="$env:TEMP\m.mp3"
 $wc=New-Object Net.WebClient
 $wc.DownloadFile($u1,$p1)
